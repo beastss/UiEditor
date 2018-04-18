@@ -1,0 +1,40 @@
+﻿生成启动时间为 2017/2/9 14:13:12。
+     1>项目“E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\UiEditor.vcxproj”在节点 3 上(Build 个目标)。
+     1>PreLinkEvent:
+         if not exist "E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\" mkdir "E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\"
+         xcopy /Y /Q "E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\UiEditor.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\UiEditor.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\UiEditor.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\EmptyBox.obj
+         Debug.win32\MainScene.obj
+         Debug.win32\UIEditorKeyboardListener.obj
+         Debug.win32\UiWidgetAnimation.obj
+         Debug.win32\UiWidgetEmptyBox.obj
+         Debug.win32\UiEditorLayoutPanel.obj
+         Debug.win32\UiEditorManager.obj
+         Debug.win32\UiEditorPanel.obj
+         Debug.win32\UiEditorAttrsPanel.obj
+         Debug.win32\UiEditorBtnsPanel.obj
+         Debug.win32\UiWidgetButton.obj
+         Debug.win32\UiWidgetImage.obj
+         Debug.win32\UiWidgetImageNum.obj
+         Debug.win32\UiWidgetsManager.obj
+         Debug.win32\UiWidgetLabel.obj
+         Debug.win32\UiWidgetNode.obj
+         Debug.win32\util.obj
+         Debug.win32\XmlHelper.obj
+         Debug.win32\main.obj
+         "E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\libcocos2d.lib"
+         "E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\libExtensions.lib"
+         "E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\libchipmunk.lib"
+         "E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\libBox2D.lib"
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         UiEditor.vcxproj -> E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\Debug.win32\UiEditor.exe
+     1>已完成生成项目“E:\cocos2d-x-2.2.3\projects\UiEditor\proj.win32\UiEditor.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.64
